@@ -1,0 +1,14 @@
+<mat-nav-list>
+    <a mat-list-item routerLink="#" (click)="onSidenavClose()">
+        <mat-icon>close</mat-icon>
+    </a>
+    <a mat-list-item routerLink="/summary" (click)="onSidenavClose()">
+        <span fxFlex fxLayout fxLayoutAlign="end" class="nav-caption">Resumo</span>
+    </a>
+    <a mat-list-item routerLink="/dashboard" (click)="onSidenavClose()">
+        <span fxFlex fxLayout fxLayoutAlign="end" class="nav-caption">Dashboard</span>
+    </a>
+    <a mat-list-item routerLink="/setup" (click)="onSidenavClose()">
+        <span fxFlex fxLayout fxLayoutAlign="end" class="nav-caption">Configurações</span>
+    </a>
+</mat-nav-list>
